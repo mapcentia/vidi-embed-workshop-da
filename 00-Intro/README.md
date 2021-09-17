@@ -1,2 +1,2 @@
 ## Hej
-![Tux, the Linux mascot](/assets/props2.png)
+![Tux, the Linux mascot](/vidi-embed-workshop-da/assets/props2.png)
