@@ -4,7 +4,7 @@ Projekt-modulet gør det muligt at gemme tilstanden af Vidi på serveren. Derved
 
 Projekter kan gemmes på to måder: Lokalt eller under en brugerprofil.
 
-![Projekt-modul](/vidi-embed-workshop-da/assets/projekter1.png)
+![Projekt-modul](../assets/projekter1.png)
 
 ## Lokal gemte projekter
 
