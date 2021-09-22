@@ -22,7 +22,7 @@ I CMS sammenhæng er det typisk, at script taggen bliver skrevet ind i side-skab
 
 ## 2. Projekt token
 
-Projektets "token" sindeholder state-id, host, database mv. Tokens er kodet, så de ligner en række tilfældige bogstaver, men det er de ikke.
+Projektets "token" sindeholder projekt-id, host, database mv. Tokens er kodet, så de ligner en række tilfældige bogstaver, men det er de ikke.
 
 ![Projekt-modul](../assets/token1.png)
 
@@ -44,7 +44,7 @@ Vha. en række "data-attributter" kan det indlejrede kort gives nogle forskellig
 
 * **data-vidi-width**
 
-    - Bredde på kort. Bruger css syntax. Fx "500px" eller "100%". Standard 100%
+    * Bredde på kort. Bruger css syntax. Fx "500px" eller "100%". Standard 100%
 
 * **data-vidi-height**
 
@@ -93,9 +93,9 @@ Kan også skrives på flere linjer, så det bliver lettere at læse:
     ></div>
 
 ## Øvelse
-1. Indsæt embed.js scriptet på en hjemmeside. Spring evt. dette over og anvend `eksempel.html` filen.
+1. Indsæt embed.js scriptet på en hjemmeside. Spring evt. dette over og anvend [eksempel.html](../eksempel.html) filen.
 2. Indsæt en div tag på hjemmesiden.
 3. Kopier token fra et Vidi projekt og indsæt denne i `data-vidi-token` i div taggen.
-4. Sæt `data-vidi-width` og `data-vidi-height` til hhv. "800px" og "600px"
+4. Sæt `data-vidi-width` og `data-vidi-height til hhv. "800px" og "600px"
 5. Gem hjemmesiden og åben den i en browser.
 6. Prøv at ændre/tilføje data-attributter og se hvad der sker med kortet.

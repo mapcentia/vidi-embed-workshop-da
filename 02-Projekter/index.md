@@ -14,7 +14,9 @@ Projektet bliver gemt på serveren, men referencen til det er knyttet til browse
 
 Er man logget ind i Vidi kan projektet gemmes under ens bruger-profil. På denne måde kan man altid se projektet på listen og det kan ændres/slettes fra en hvilken som helst browser.
 
-**Brug altid Bruger gemte projekter!**
+**Brug altid Bruger gemte projekter!**   
+
+[Video af Vidi projekter](https://vimeo.com/611421748)   
 
 ## Øvelse
 
@@ -22,4 +24,3 @@ Er man logget ind i Vidi kan projektet gemmes under ens bruger-profil. På denne
 - Log ind og opret et bruger projekt.
 - Prøv at flytte det lokale projekt til et bruger projekt.
 
-[Video af Vidi projekter](https://vimeo.com/611421748)
