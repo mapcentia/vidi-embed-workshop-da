@@ -1,4 +1,4 @@
-#Introduktion til Vidi Embed funktionen
+# Introduktion til Vidi Embed funktionen
 
 Vidi Embed giver mulighed for at indlejre Vidi på en hjemmeside, som et inline element. Kortet indlejres med en specifik tilstand, som kan omfatte kortets zoom, hvilke lag, der er tændt med hvilken filtrering, tegninger mv.
 
