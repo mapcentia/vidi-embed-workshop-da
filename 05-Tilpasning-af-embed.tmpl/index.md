@@ -9,7 +9,30 @@ Her fjernes "Find mig", "Baggrundskort" og "Log ind" knapperne:
 ```css
 #find-me-btn,
 #base-layers-btn,
-#session
+#burger-btn,
+#full-screen-btn,
+#about-btn,
+#session,
+#mapcontrols-history-backward,
+#mapcontrols-history-forward
+{
+    display:none !important;
+}
+```
+
+Hvis alle knapper (udover navigationsknapperne) skal fjernes, så kan det gøres med én regel:
+
+```css
+#floating-container-secondary
+{
+    display:none !important;
+}
+```
+
+Navigationsknapperne kan fjerne ved:
+
+```css
+#floating-container-primary
 {
     display:none !important;
 }

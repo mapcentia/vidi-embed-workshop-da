@@ -2,6 +2,13 @@
 <html lang="da">
 <header>
     <script src="https://vidi.swarm.gc2.io/js/embed.js"></script>
+    <script>
+        embedApi.activeLayersReady["workshop"] = () => {
+            document.querySelectorAll('button').forEach((button)=>{
+                button.disabled = false;
+            })
+        }
+    </script>
 </header>
 <body>
     <h1>Eksempel på indlejring</h1>
@@ -10,7 +17,12 @@
         data-vidi-token="eyJpZCI6InN0YXRlX3NuYXBzaG90XzI3YmNlMTkwLTFiYTAtMTFlYy05MjVmLTg3ODhlYmM2MzkzZSIsImhvc3QiOiJodHRwczovL3ZpZGkuc3dhcm0uZ2MyLmlvOiIsInRpdGxlIjoiZHMiLCJkYXRhYmFzZSI6IndvcmtzaG9wIiwic25hcHNob3QiOmZhbHNlLCJhbm9ueW1vdXMiOnRydWUsImJyb3dzZXJJZCI6IjUzODJhOTIzLTg4MTgtNDQ2ZS04ZWFkLWRlYWIyZjQ2MzcwNSIsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTIyVDEyOjI1OjIxLjcwNVoiLCJ1cGRhdGVkX2F0IjoiMjAyMS0wOS0yMlQxMjozMDo1OS43OTNaIiwiY29uZmlnIjoiL2FwaS92Mi9jb25maWd1cmF0aW9uL3dvcmtzaG9wL2NvbmZpZ3VyYXRpb25fd29ya3Nob3BfNjE0YWU4MGMyMzkzYzQ0OTE0ODI1NS5qc29uIn0="
         data-vidi-width="800px" 
         data-vidi-height="600px"
+        data-vidi-frame-name="workshop"
     ></div>
+    
+    <button disabled onclick='javascript: embedApi.switchLayer("public.region", true, "workshop")'>Tænd Regioner</button>
+    <button disabled onclick='javascript: embedApi.switchLayer("public.region", false, "workshop")'>Sluk Regioner</button>
+    <button disabled onclick='javascript: embedApi.switchAllOff("workshop")'>Sluk alle lag</button>
     
 </body>
 </html>

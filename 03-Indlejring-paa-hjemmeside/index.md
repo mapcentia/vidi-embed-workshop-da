@@ -99,3 +99,5 @@ Kan også skrives på flere linjer, så det bliver lettere at læse:
 4. Sæt `data-vidi-width` og `data-vidi-height til hhv. "800px" og "600px"
 5. Gem hjemmesiden og åben den i en browser.
 6. Prøv at ændre/tilføje data-attributter og se hvad der sker med kortet.
+
+[Dokumentation af Indlejring af Vidi på andre hjemmesider](https://vidi.readthedocs.io/en/latest/pages/standard/95_embed.html)

@@ -53,3 +53,6 @@ Dette gøres således:
 2. Indsæt ovenstående script tag på hjemmesiden.
 3. Åben hjemmesiden i en browser og om region-laget tænder og der kommer "alarm" dialoger.
 
+[Dokumentation af Embed API](https://vidi.readthedocs.io/en/latest/pages/standard/95_embed.html#embed-api)
+
+
