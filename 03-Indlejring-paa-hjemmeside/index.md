@@ -30,7 +30,7 @@ Kodet:
 
     eyJpZCI6InN0YXRlX3NuYXBzaG90X2UwMGQ4ZTIwLTFiNmUtMTFlYy04M2EwLTM5NzJhYWM0MTU2NCIsImhvc3QiOiJodHRwOi8vMTI3LjAuMC4xOjMwMDAiLCJ0aXRsZSI6Ik5vcmRqeXNrZSBrb21tdW5lciIsInNjaGVtYSI6IndvcmtzaG9wIiwidXNlcklkIjoibXlkYiIsImRhdGFiYXNlIjoibXlkYiIsInNuYXBzaG90IjpmYWxzZSwiYW5vbnltb3VzIjpmYWxzZSwiYnJvd3NlcklkIjpmYWxzZSwiY3JlYXRlZF9hdCI6IjIwMjEtMDktMjJUMDY6MzI6MzYuMDk4WiIsInVwZGF0ZWRfYXQiOiIyMDIxLTA5LTIyVDA2OjMyOjM2LjA5OFoiLCJjb25maWciOiIvYXBpL3YyL2NvbmZpZ3VyYXRpb24vbXlkYi9jb25maWd1cmF0aW9uX3dvcmtzaG9wXzYxNGFkYTM0ODNlYTI5NzMxMDM0ODQuanNvbiJ9   
 
-Ukodet:
+Afkodet:
 
     {"id":"state_snapshot_e00d8e20-1b6e-11ec-83a0-3972aac41564","host":"http://127.0.0.1:3000","title":"Nordjyske kommuner","schema":"workshop","userId":"mydb","database":"mydb","snapshot":false,"anonymous":false,"browserId":false,"created_at":"2021-09-22T06:32:36.098Z","updated_at":"2021-09-22T06:32:36.098Z","config":"/api/v2/configuration/mydb/configuration_workshop_614ada3483ea2973103484.json"}
 
